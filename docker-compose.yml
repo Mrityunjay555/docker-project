@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   frontend:
-    image: sunilkumarmehta2002/frontend
+    image: mrityunjay555/frontend
     deploy:
       replicas: 3
       resources:
@@ -14,7 +14,7 @@ services:
       - fitmitra_network
 
   backend:
-    image: sunilkumarmehta2002/backend
+    image: mrityunjay555/backend
     deploy:
       replicas: 2
       resources:
